@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1; /* Ensure the content is above the overlay */
+  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+  border-radius: 10px; /* Optional: rounded corners */
+  padding: 20px; /* Optional: padding inside the content */
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Optional: max width for larger screens */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px); /* Optional: blur background behind the div */
+}
+
+.app-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg') no-repeat center center/cover; /* Add your background image URL here */
+  z-index: 0; /* Ensure the overlay is behind the content */
+}
+
+/* Utility classes for layout and spacing */
+.mx-auto {
+  max-width: 1200px;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.shadow-xl {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-gray-400 {
+  --tw-shadow-color: rgba(156, 163, 175, 1);
+  box-shadow: 0 1px 2px 0 var(--tw-shadow-color);
+}
