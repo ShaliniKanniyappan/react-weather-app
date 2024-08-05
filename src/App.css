@@ -37,7 +37,6 @@
   }
 }
 
-/* App.css */
 .app-container {
   position: relative;
   min-height: 100vh;
@@ -48,14 +47,14 @@
 
 .content-wrapper {
   position: relative;
-  z-index: 1; /* Ensure the content is above the overlay */
-  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
-  border-radius: 10px; /* Optional: rounded corners */
-  padding: 20px; /* Optional: padding inside the content */
-  width: 100%; /* Full width */
-  max-width: 1200px; /* Optional: max width for larger screens */
+  z-index: 1; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px; 
+  padding: 20px; 
+  width: 100%;
+  max-width: 1200px; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(10px); /* Optional: blur background behind the div */
+  backdrop-filter: blur(10px); 
 }
 
 .app-container::before {
@@ -66,10 +65,9 @@
   width: 100%;
   height: 100%;
   background: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg') no-repeat center center/cover; /* Add your background image URL here */
-  z-index: 0; /* Ensure the overlay is behind the content */
+  z-index: 0; 
 }
 
-/* Utility classes for layout and spacing */
 .mx-auto {
   max-width: 1200px;
 }
