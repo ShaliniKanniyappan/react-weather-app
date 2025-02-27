@@ -48,7 +48,7 @@ npm start
 
 ## 📸 Screenshots
 ![Screenshot 1](C:\Users\ss\Documents\Knackforge intern\react-weather-app)
-![Screenshot 2](path/to/screenshot2.png)
+![Screenshot 2](path/to/Documents/Knackforge intern/react-weather-app)
 ![Screenshot 3](path/to/screenshot3.png)
 ![Screenshot 4](path/to/screenshot4.png)
 
