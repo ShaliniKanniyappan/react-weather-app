@@ -7,7 +7,7 @@ Welcome to the **Weather App**—a dynamic and responsive weather application bu
 
 ### 🌏 Default Weather for Chennai
 - Upon launch, the app displays Chennai's weather, providing instant updates without requiring any input.
-![Screenshot 1](https://github.com/ShaliniKanniyappan/react-weather-app/blob/main/img/Current%20Location.jpeg)
+![Screenshot 1](https://github.com/ShaliniKanniyappan/react-weather-app/blob/main/img/default%20chennai.jpeg)
 
 ### 🔍 Search Weather by City
 - Users can enter any city name to retrieve accurate, real-time weather updates for that location.
@@ -17,6 +17,7 @@ Welcome to the **Weather App**—a dynamic and responsive weather application bu
 
 ### 📍 Weather for Your Current Location
 - Using the **Geolocation API**, the app detects the user's location and displays real-time weather updates accordingly.
+![Screenshot 4](https://github.com/ShaliniKanniyappan/react-weather-app/blob/main/img/Current%20Location.jpeg)
 
 ## 💻 Tech Stack
 - **React.js** - For building the interactive UI.
