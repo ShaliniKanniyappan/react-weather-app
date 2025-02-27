@@ -11,7 +11,7 @@ Welcome to the **Weather App**—a dynamic and responsive weather application bu
 
 ### 🔍 Search Weather by City
 - Users can enter any city name to retrieve accurate, real-time weather updates for that location.
-![screenshot 2]()
+![screenshot 2](https://github.com/ShaliniKanniyappan/react-weather-app/blob/main/img/Search%20location.jpeg)
 
 ### ⚡ Quick Access to Predefined Cities
 - One-click buttons allow users to quickly view the weather for select popular cities.
