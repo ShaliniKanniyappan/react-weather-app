@@ -11,9 +11,11 @@ Welcome to the **Weather App**—a dynamic and responsive weather application bu
 
 ### 🔍 Search Weather by City
 - Users can enter any city name to retrieve accurate, real-time weather updates for that location.
+![screenshot 2]()
 
 ### ⚡ Quick Access to Predefined Cities
 - One-click buttons allow users to quickly view the weather for select popular cities.
+![Screenshot 3](https://github.com/ShaliniKanniyappan/react-weather-app/blob/main/img/Quick%20access.jpeg)
 
 ### 📍 Weather for Your Current Location
 - Using the **Geolocation API**, the app detects the user's location and displays real-time weather updates accordingly.
@@ -48,28 +50,8 @@ REACT_APP_WEATHER_API_KEY=your_api_key_here
 npm start
 ```
 
-## 📸 Screenshots
-
-![Screenshot 2](path/to/Documents/Knackforge intern/react-weather-app)
-![Screenshot 3](path/to/screenshot3.png)
-![Screenshot 4](path/to/screenshot4.png)
-
 ## 🌟 Future Improvements
 - **Hourly & Weekly Forecasts**
 - **Dark Mode UI**
 - **Weather Alerts & Notifications**
 - **Integration with Google Maps**
-
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork this repository and submit a pull request.
-
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-### 🚀 Stay Connected
-📧 Email: your-email@example.com  
-🔗 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)  
-📂 GitHub: [Your GitHub](https://github.com/yourusername)
-
